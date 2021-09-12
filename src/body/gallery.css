@@ -57,6 +57,8 @@
   color: white;
   border-bottom: 2px solid orange;
 }
+.gallery__img-icon > button {
+}
 
 .gallery__div {
   justify-content: space-between;

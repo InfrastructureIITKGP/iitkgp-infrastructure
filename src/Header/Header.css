@@ -13,8 +13,11 @@
   width: fit-content;
 }
 
-.weather-img {
+.weather-icon {
+  font-size: xx-large;
+  color: orange;
   margin-left: 100px;
+  margin-right: 10px;
   height: 80px;
   align-items: center;
 }

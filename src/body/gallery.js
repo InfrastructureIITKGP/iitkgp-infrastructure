@@ -22,6 +22,7 @@ function gallery() {
         <div className="gallery__img-icon">
           <ImageIcon className="img" />
           <strong>See Our gallery </strong>
+          <button>View All</button>
         </div>
         <div className="gallery__div">
           <div className="gallery__column">
