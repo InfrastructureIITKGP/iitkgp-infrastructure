@@ -1,12 +1,12 @@
-import React from "react";
-import "./Footer.css";
-import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import InstagramIcon from "@material-ui/icons/Instagram";
-import YouTubeIcon from "@material-ui/icons/YouTube";
-import Button from "@material-ui/core/Button";
-import IitKgp from "../images/iit-kgp-logo2.png";
+import React from "react"
+import "./Footer.css"
+import FacebookIcon from "@material-ui/icons/Facebook"
+import TwitterIcon from "@material-ui/icons/Twitter"
+import LinkedInIcon from "@material-ui/icons/LinkedIn"
+import InstagramIcon from "@material-ui/icons/Instagram"
+import YouTubeIcon from "@material-ui/icons/YouTube"
+import Button from "@material-ui/core/Button"
+import IitKgp from "../images/iit-kgp-logo2.png"
 
 function Footer() {
   return (
@@ -23,8 +23,6 @@ function Footer() {
           <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
-          <p>Technlogy incubation center</p>
-          <p>Technlogy incubation center</p>
         </div>
         <div className="footer__info">
           <p>Technlogy incubation center</p>
@@ -34,12 +32,8 @@ function Footer() {
           <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
-          <p>Technlogy incubation center</p>
-          <p>Technlogy incubation center</p>
         </div>
         <div className="footer__info">
-          <p>Technlogy incubation center</p>
-          <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
           <p>Technlogy incubation center</p>
@@ -69,7 +63,7 @@ function Footer() {
         </div>
       </div>
     </div>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
