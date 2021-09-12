@@ -1,8 +1,11 @@
 .gallery {
+  display: flex;
+  flex-direction: row;
   padding: 3%;
   height: 300px;
   width: 94%;
   background-color: rgb(58, 58, 75);
+  margin-bottom: 10px;
 }
 .gallery__video {
   display: flex;
@@ -27,4 +30,55 @@
 .gallery__video-icon > .video {
   color: white;
   border-bottom: 2px solid orange;
+}
+
+.gallery__img {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+  align-items: center;
+}
+
+.gallery__img-icon {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+.gallery__img-icon > strong {
+  color: white;
+  margin-left: 10px;
+  font-size: large;
+  font-weight: 800;
+}
+.gallery__img-icon > .img {
+  color: white;
+  border-bottom: 2px solid orange;
+}
+.gallery__img-icon > button {
+}
+
+.gallery__div {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(58, 58, 75);
+  height: 100%;
+  width: 100%;
+}
+.gallery__column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: rgb(58, 58, 75);
+  height: 100%;
+  width: 20%;
+}
+.column-img {
+  margin-bottom: 5px;
+  outline: 2px solid white;
+  height: 70px;
+  width: 100%;
 }

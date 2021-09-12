@@ -1,17 +1,29 @@
-import React from "react";
-import "./img-grid.css";
+import React from "react"
+import "./img-grid.css"
 
 function imgGrid() {
   return (
-    <div class="grid-container">
-      <div class="item1">1</div>
-      <div class="item2">2</div>
-      <div class="item3">3</div>
-      <div class="item4">4</div>
-      <div class="item5">5</div>
-      <div class="item6">6</div>
+    <div className="grid-container">
+      <div className="item1">
+        <button className="button">Infrastructure</button>
+      </div>
+      <div className="item2">
+        <button className="button">Plans</button>
+      </div>
+      <div className="item3">
+        <button className="button">Budget</button>
+      </div>
+      <div className="item4">
+        <button className="button">Green initiatives</button>
+      </div>
+      <div className="item5">
+        <button className="button">Alumni</button>
+      </div>
+      <div className="item6">
+        <button className="button">Sports</button>
+      </div>
     </div>
-  );
+  )
 }
 
-export default imgGrid;
+export default imgGrid

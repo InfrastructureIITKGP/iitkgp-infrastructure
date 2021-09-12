@@ -1,5 +1,5 @@
 .footer {
-  height: 300px;
+  height: 250px;
   width: 100%;
   background-color: rgb(58, 58, 75);
 }
@@ -12,22 +12,34 @@
 }
 
 .footer__logo {
-  display: grid;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
   height: 100%;
   width: 25%;
   background-color: rgb(58, 58, 75);
 }
 .footer__logo > img {
-  width: 50%;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer__logo > .institute-name {
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
 }
 .footer__info {
   margin: 10px;
-  border-left: 1px solid grey;
+  border-left: 1px solid rgba(128, 128, 128, 0.219);
   width: 25%;
   background-color: rgb(58, 58, 75);
 }
 .footer__info > p {
+  border-bottom: 1px solid rgba(128, 128, 128, 0.219);
+  font-size: small;
   color: grey;
   margin: 10px 10px;
 }
@@ -42,10 +54,29 @@
 
 .footer__div-2-logo {
   justify-content: space-between;
+  color: white;
   align-self: center;
+  margin-left: auto;
+  margin-right: auto;
   width: 300px;
   display: flex;
   align-content: center;
   align-items: center;
   background-color: rgb(58, 58, 75);
+}
+.phone {
+  display: flex;
+  flex-direction: row;
+  color: orange;
+}
+.mail {
+  display: flex;
+  flex-direction: row;
+  color: orange;
+}
+.phone > p {
+  color: rgb(194, 194, 194);
+}
+.mail > p {
+  color: rgb(194, 194, 194);
 }
