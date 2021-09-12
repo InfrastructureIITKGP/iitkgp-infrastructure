@@ -1,0 +1,14 @@
+.body {
+  padding: 10px;
+}
+
+.body__card1 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.body__card2 {
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}

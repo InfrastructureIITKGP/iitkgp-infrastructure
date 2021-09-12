@@ -1,0 +1,15 @@
+.grid-container {
+  max-height: 600px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 5px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: white;
+  outline: 1px solid gray;
+  height: 300px;
+  text-align: center;
+  font-size: 30px;
+}
