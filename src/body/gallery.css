@@ -1,0 +1,30 @@
+.gallery {
+  padding: 3%;
+  height: 300px;
+  width: 94%;
+  background-color: rgb(58, 58, 75);
+}
+.gallery__video {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 40%;
+  align-items: center;
+}
+
+.gallery__video-icon {
+  display: flex;
+  height: 50px;
+  width: 100%;
+  align-items: center;
+}
+.gallery__video-icon > strong {
+  color: white;
+  margin-left: 10px;
+  font-size: large;
+  font-weight: 800;
+}
+.gallery__video-icon > .video {
+  color: white;
+  border-bottom: 2px solid orange;
+}
