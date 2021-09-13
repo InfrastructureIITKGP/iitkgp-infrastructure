@@ -33,6 +33,30 @@
 .item6 {
   background-image: url(../images/sports.jpg);
 }
+.item1:hover {
+  transition-duration: 1000ms;
+  transform: scale(1.02);
+}
+.item2:hover {
+  transition-duration: 1000ms;
+  transform: scale(1.02);
+}
+.item3:hover {
+  transition-duration: 1000ms;
+  transform: scale(1.02);
+}
+.item4:hover {
+  transition-duration: 1000ms;
+  transform: scale(1.02);
+}
+.item5:hover {
+  transition-duration: 1000ms;
+  transform: scale(1.02);
+}
+.item6:hover {
+  transition-duration: 1000ms;
+  transform: scale(1.02);
+}
 
 .button {
   margin-top: 250px;
@@ -43,4 +67,7 @@
   background-color: black;
   color: white;
   border: none;
+}
+.button:hover {
+  background-color: rgba(22, 21, 21, 0.842);
 }

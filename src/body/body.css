@@ -3,11 +3,17 @@
 }
 
 .body__card1 {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   display: flex;
   flex-direction: row;
 }
 .body__card2 {
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
   padding: 10px;
   display: flex;
   flex-direction: row;

@@ -8,7 +8,7 @@ function imgGrid() {
         <button className="button">Infrastructure</button>
       </div>
       <div className="item2">
-        <button className="button">Plans</button>
+        <button className="button">Current Plans</button>
       </div>
       <div className="item3">
         <button className="button">Budget</button>
