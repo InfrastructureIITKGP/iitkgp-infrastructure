@@ -1,6 +1,7 @@
 .gallery {
   padding: 3%;
-  height: 300px;
+  min-height: 300px;
+  max-height: fit-content;
   width: 94%;
   background-color: rgb(58, 58, 75);
   margin-bottom: 10px;
@@ -61,8 +62,6 @@
 .gallery__img-icon > .img {
   color: white;
   border-bottom: 2px solid orange;
-}
-.gallery__img-icon > button {
 }
 
 .gallery__div {

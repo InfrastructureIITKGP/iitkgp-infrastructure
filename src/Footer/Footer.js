@@ -14,7 +14,7 @@ function Footer() {
     <div className="footer">
       <div className="footer__div-1">
         <div className="footer__logo">
-          <img src={IitKgp} />
+          <img src={IitKgp} alt="" />
           <div className="institute-name">
             <p>Indian Institute of Technology</p>
             <p>Kharagpur, West Bengal 721302</p>

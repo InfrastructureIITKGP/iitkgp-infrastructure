@@ -17,34 +17,35 @@ function gallery() {
             width="100%"
             height="100%"
             src="https://www.youtube.com/embed/tgbNymZ7vqY"
+            title="02"
           ></iframe>
         </div>
         <div className="gallery__img">
           <div className="gallery__img-icon">
             <ImageIcon className="img" />
             <strong>See Our gallery </strong>
-            <button>View All</button>
+            <button className="gallery__button">View All</button>
           </div>
           <div className="gallery__div">
             <div className="gallery__column">
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
             </div>
             <div className="gallery__column">
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
             </div>
             <div className="gallery__column">
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
             </div>
             <div className="gallery__column">
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
-              <img src={ImgKgp} className="column-img" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
+              <img src={ImgKgp} className="column-img" alt="" />
             </div>
           </div>
         </div>

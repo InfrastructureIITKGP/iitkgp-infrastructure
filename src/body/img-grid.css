@@ -1,73 +1,38 @@
-.grid-container {
-  max-height: 600px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-  margin-bottom: 20px;
+.img__grid {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  height: fit-content;
+  width: 100%;
+  min-height: 300px;
 }
 
-.grid-container > div {
-  background-color: white;
-  height: 300px;
-  text-align: center;
-  font-size: 30px;
-  background-position: center;
-  background-size: cover;
+.img__grid-img {
+  position: relative;
+  height: 400px;
+  width: 25%;
+  min-width: 400px;
+  margin: 10px;
+  display: inline-block;
+  background-color: red;
 }
-.item1 {
-  background-image: url(../images/infrastructure.jpg);
-}
-.item2 {
-  background-image: url(../images/plans.jpg);
-}
-.item3 {
-  background-image: url(../images/budget.jpg);
-}
-.item4 {
-  background-image: url(../images/green-initiatives.jpg);
-}
-.item5 {
-  background-image: url(../images/alumni.jpg);
-}
-.item6 {
-  background-image: url(../images/sports.jpg);
-}
-.item1:hover {
-  transition-duration: 1000ms;
-  transform: scale(1.02);
-}
-.item2:hover {
-  transition-duration: 1000ms;
-  transform: scale(1.02);
-}
-.item3:hover {
-  transition-duration: 1000ms;
-  transform: scale(1.02);
-}
-.item4:hover {
-  transition-duration: 1000ms;
-  transform: scale(1.02);
-}
-.item5:hover {
-  transition-duration: 1000ms;
-  transform: scale(1.02);
-}
-.item6:hover {
-  transition-duration: 1000ms;
-  transform: scale(1.02);
+.img__grid-img > img {
+  height: 400px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
-.button {
-  margin-top: 250px;
-  width: 50%;
-  height: 30px;
-  margin-right: auto;
-  margin-left: auto;
+.img__grid-img > button {
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 40px;
+  width: 60%;
   background-color: black;
   color: white;
   border: none;
-}
-.button:hover {
-  background-color: rgba(22, 21, 21, 0.842);
 }
