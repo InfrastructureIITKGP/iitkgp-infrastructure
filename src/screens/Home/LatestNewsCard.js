@@ -10,15 +10,15 @@ import Typography from "@material-ui/core/Typography"
 
 const useStyles = makeStyles({
   root: {
-    maxWidth: 345,
+    maxWidth: "100%",
     margin: "10px",
   },
   media: {
-    height: 140,
+    height: 250,
   },
 })
 
-export default function MediaCard(props) {
+export default function LatestNewsCard(props) {
   const classes = useStyles()
 
   return (
@@ -33,16 +33,21 @@ export default function MediaCard(props) {
           <Typography gutterBottom variant="h5" component="h2">
             {props.heading}
           </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
+          <Typography
+            variant="body2"
+            color="textSecondary"
+            variant="h6"
+            component="p"
+          >
             {props.paragraph}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button variant="outlined" size="large" color="primary">
           Share
         </Button>
-        <Button size="small" color="primary">
+        <Button variant="contained" size="large" color="primary">
           Learn More
         </Button>
       </CardActions>

@@ -1,7 +1,7 @@
 import React from "react"
-import "../Header/Header.css"
-import iitLogo from "../images/IIT-KGP-logo1.gif"
-import weatherLogo from "../images/weather-logo.png"
+import "./Header.css"
+import iitLogo from "../../images/IIT-KGP-logo1.gif"
+import weatherLogo from "../../images/weather-logo.png"
 import CloudIcon from "@material-ui/icons/Cloud"
 
 function Header() {
