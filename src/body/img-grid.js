@@ -1,27 +1,18 @@
 import React from "react"
 import "./img-grid.css"
+import Data from "../Data/data"
 
 function imgGrid() {
   return (
-    <div className="grid-container">
-      <div className="item1">
-        <button className="button">Infrastructure</button>
-      </div>
-      <div className="item2">
-        <button className="button">Current Plans</button>
-      </div>
-      <div className="item3">
-        <button className="button">Budget</button>
-      </div>
-      <div className="item4">
-        <button className="button">Green initiatives</button>
-      </div>
-      <div className="item5">
-        <button className="button">Alumni</button>
-      </div>
-      <div className="item6">
-        <button className="button">Sports</button>
-      </div>
+    <div className="img__grid">
+      {Data.galleryData.map(items => {
+        return (
+          <div className="img__grid-img">
+            <img src={items.image} alt="" />
+            <button>{items.text}</button>
+          </div>
+        )
+      })}
     </div>
   )
 }
