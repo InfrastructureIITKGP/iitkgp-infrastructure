@@ -10,12 +10,12 @@ const data = {
   galleryData1: [
     { key: "01", text: "Infrastructure", image: img1 },
     { key: "02", text: "Budget", image: img2 },
-    { key: "03", text: "Current Plans", image: img3 },
+    { key: "03", text: "Current Policy", image: img3 },
   ],
 
   galleryData2: [
     { key: "04", text: "Green Initiatives", image: img4 },
-    { key: "05", text: "Alumni", image: img5 },
+    { key: "05", text: "Plans", image: img5 },
     { key: "06", text: "Sports", image: img6 },
   ],
 
@@ -39,7 +39,7 @@ const data = {
       title: "Lizar",
       heading: "heading",
       paragraph:
-        "Institute Works was formed by integrating various estate works sections - CCM (Civil Construction & Maintenance), E&M. ",
+        "Institute Works was formed by integrating various estate works sections - CCM (Civil Construction & Maintenance), E&M E&M E&M. ",
     },
   ],
   gallaryImages: [
