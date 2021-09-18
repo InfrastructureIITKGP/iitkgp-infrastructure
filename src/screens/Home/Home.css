@@ -1,6 +1,10 @@
 .body {
   padding: 10px;
 }
+.card-content {
+  display: flex;
+  flex-wrap: wrap;
+}
 
 .body__card-div1 {
   display: flex;
