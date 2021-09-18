@@ -5,7 +5,7 @@ import TwitterIcon from "@material-ui/icons/Twitter"
 import LinkedInIcon from "@material-ui/icons/LinkedIn"
 import InstagramIcon from "@material-ui/icons/Instagram"
 import YouTubeIcon from "@material-ui/icons/YouTube"
-import IitKgp from "../images/iit-kgp-logo2.png"
+import IITKgp from "../../images/iit-kgp-logo2.png"
 import MailOutlineIcon from "@material-ui/icons/MailOutline"
 import PhoneIcon from "@material-ui/icons/Phone"
 
@@ -14,7 +14,7 @@ function Footer() {
     <div className="footer">
       <div className="footer__div-1">
         <div className="footer__logo">
-          <img src={IitKgp} alt="" />
+          <img src={IITKgp} alt="" />
           <div className="institute-name">
             <p>Indian Institute of Technology</p>
             <p>Kharagpur, West Bengal 721302</p>
