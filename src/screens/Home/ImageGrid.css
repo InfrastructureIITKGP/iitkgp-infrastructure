@@ -12,14 +12,14 @@
 .img__grid-img {
   position: relative;
   height: 400px;
-  width: 25%;
+  width: 100%;
   min-width: 400px;
   margin: 10px;
   display: inline-block;
   background-color: red;
 }
 .img__grid-img > img {
-  height: 400px;
+  height: 500px;
   width: 100%;
   object-fit: cover;
   object-position: center;
@@ -27,7 +27,7 @@
 
 .img__grid-img > button {
   position: absolute;
-  top: 90%;
+  top: 100%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 40px;
