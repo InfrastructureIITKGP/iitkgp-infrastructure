@@ -8,6 +8,7 @@ import YouTubeIcon from "@material-ui/icons/YouTube"
 import IITKgp from "../../images/iit-kgp-logo2.png"
 import MailOutlineIcon from "@material-ui/icons/MailOutline"
 import PhoneIcon from "@material-ui/icons/Phone"
+import Data from "../../Data/data"
 
 function Footer() {
   return (
@@ -31,30 +32,19 @@ function Footer() {
           </div>
         </div>
         <div className="footer__info">
-          <p>Technlogy incubation center</p>
-          <p>RuTAG-NE</p>
-          <p>Green Energy Initiative</p>
-          <p>EICT Academy</p>
-          <p>Quality Improvement Programme</p>
-          <p>TePP Outreach cum Cluster</p>
-          <p>I-Stem</p>
+          {Data.footer.infoDiv1.map(paragraph => {
+            return <p>{paragraph}</p>
+          })}
         </div>
         <div className="footer__info">
-          <p>Academic Afairs</p>
-          <p>Student's Affairs</p>
-          <p>Research Park</p>
-          <p>Adult & Annual Reports</p>
-          <p>Convocation Speeches</p>
-          <p>IIT Council Portal</p>
+          {Data.footer.infoDiv2.map(paragraph => {
+            return <p>{paragraph}</p>
+          })}
         </div>
         <div className="footer__info">
-          <p>Right To Information</p>
-          <p>Citizen Centric Administration</p>
-          <p>Anti-Ragging Affidavits</p>
-          <p>Internal Complaints Committee</p>
-          <p>Equal opportunity Cum Special Reservation Cell</p>
-          <p>Relephone Directory</p>
-          <p>Contact Us</p>
+          {Data.footer.infoDiv3.map(paragraph => {
+            return <p>{paragraph}</p>
+          })}
         </div>
       </div>
       <div className="footer__div-2">

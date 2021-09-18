@@ -1,7 +1,7 @@
-import React from "react";
-import "./Hero.css";
-import HomeIcon from "@material-ui/icons/Home";
-import SearchIcon from "@material-ui/icons/Search";
+import React from "react"
+import "./Hero.css"
+import HomeIcon from "@material-ui/icons/Home"
+import SearchIcon from "@material-ui/icons/Search"
 
 function hero() {
   return (
@@ -20,9 +20,8 @@ function hero() {
           </li>
         </ul>
       </nav>
-      <div className="front-text">Yogah Karmasu Kaushalam</div>
     </div>
-  );
+  )
 }
 
-export default hero;
+export default hero

@@ -11,7 +11,7 @@ function imgGrid(props) {
   return (
     <Grid justifyContent="center" xs={12}>
       <CardContent>
-        <Grid spacing={1} container justify="center">
+        <Grid spacing={1} container justify="center" className="img__grid">
           {gallaryPictures.map(items => {
             return (
               <Grid item xs={3}>

@@ -1,22 +1,28 @@
 .header {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
   height: 100px;
   background-color: white;
   width: 100%;
-  align-items: center;
 }
-.header-div {
+.header__iit-logo {
+  margin-left: 20px;
   display: flex;
   flex-direction: row;
   align-items: center;
   width: fit-content;
 }
+.header__weather {
+  margin-right: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
 
 .weather-icon {
   font-size: xx-large;
   color: orange;
-  margin-left: 100px;
   margin-right: 10px;
   height: 80px;
   align-items: center;
