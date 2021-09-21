@@ -9,15 +9,15 @@ import deanImg from "../images/dean-img.jpg"
 
 const data = {
   galleryData1: [
-    { key: "01", text: "Infrastructure", image: img1 },
-    { key: "02", text: "Budget", image: img2 },
-    { key: "03", text: "Current Policy", image: img3 },
+    { key: "01", text: "Administrative", image: img1 },
+    { key: "02", text: "recreational facilities", image: img2 },
+    { key: "03", text: "Green initiatives", image: img4 },
   ],
 
   galleryData2: [
-    { key: "04", text: "Green Initiatives", image: img4 },
-    { key: "05", text: "Plans", image: img5 },
-    { key: "06", text: "Sports", image: img6 },
+    { key: "04", text: "Projects", image: img3 },
+    { key: "05", text: "Policies and Procedures", image: img5 },
+    { key: "06", text: "Plans", image: img3 },
   ],
 
   card__div1: [
@@ -26,7 +26,7 @@ const data = {
       title: "DEAN'S CORNER",
       heading: "DEAN'S CORNER",
       paragraph:
-        "Welcome to the webpage of Institute Works, IIT Kharagpur. Institute Works is tasked with creating and sustaining physical infrastructure for the Institute that would support the Institute in its mission of teaching and research, and contribute to the well-being of the entire campus community.",
+        "Welcome to the webpage of Institute Works, IIT Kharagpur. Institute Works is tasked with creating and sustaining physical ",
     },
   ],
 

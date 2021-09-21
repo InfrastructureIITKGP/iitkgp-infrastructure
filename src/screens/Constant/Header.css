@@ -11,7 +11,19 @@
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: fit-content;
+  width: 40%;
+}
+
+.iit__logo-name {
+  margin-right: 10px;
+}
+.iit__logo-name > p {
+  text-align-last: right;
+  color: #583798;
+  font-weight: 800;
+}
+.header__iit-logo > img {
+  height: 60px;
 }
 .header__weather {
   margin-right: 50px;

@@ -11,23 +11,28 @@ import { Grid } from "@material-ui/core"
 function Home() {
   return (
     <div className="body">
-      <Grid justifyContent="center" alignItems="center" xs={12}>
+      <Grid
+        justifyContent="center"
+        alignItems="center"
+        xs={12}
+        className="card__div1"
+      >
         <CardContent>
           <Grid spacing={1} container justify="center">
-            <Grid item xs={4}>
+            <Grid item xs={3}>
               <AboutInfrastructureCard />
             </Grid>
-            <Grid justifyContent="center" item xs={4}>
+            <Grid justifyContent="center" item xs={3}>
               <iframe
                 item
                 xs={4}
                 width="100%"
-                height="300px"
+                height="500px"
                 src="https://www.youtube.com/embed/iZf1QdDA270"
                 title="1"
               ></iframe>
             </Grid>
-            <Grid item xs={4}>
+            <Grid item xs={3}>
               <LatestNewsCard
                 image={Data.card__div1[0].image}
                 title={Data.card__div1[0].title}
@@ -39,7 +44,7 @@ function Home() {
         </CardContent>
       </Grid>
 
-      <Grid justifyContent="center" xs={12}>
+      <Grid justifyContent="center" xs={12} className="card__div2">
         <CardContent>
           <Grid spacing={1} container justify="center">
             {Data.card__div2.map(items => {

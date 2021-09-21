@@ -2,7 +2,7 @@ const infrastructDetails = [
   {
     heading: "About IIT KGP Infrastructure",
     details:
-      "The Central Library of IIT Kharagpur started in a small room of the Institute old Building (Shahid Bhavan) in the year 1951, and moved to its present premises in 1956. Since then, it has grown in size and content to take the present shape. ",
+      "Institute Works was formed by integrating various estate works sections - CCM (Civil Construction & Maintenance), E&M (Electrical & Mechanical works), Water Works and Sanitary sections and Horticulture section into a single department. This has resulted in improved coordination between the various works sections and led to improved performance. ",
   },
 ]
 

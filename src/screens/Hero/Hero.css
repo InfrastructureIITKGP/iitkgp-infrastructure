@@ -14,8 +14,24 @@
 .nav {
   display: flex;
   align-items: center;
-  height: 20px;
+  justify-content: center;
+  height: 50px;
   padding: 20px;
+}
+
+.nav__homeIcon {
+  font-size: xx-large;
+}
+.nav__homeIcon :hover {
+  transform: scale(1.1);
+  color: rgb(58, 58, 75);
+}
+.nav__search {
+  font-size: xx-large;
+}
+.nav__search:hover {
+  transform: scale(1.2);
+  color: rgb(58, 58, 75);
 }
 
 .nav__ul {
@@ -30,5 +46,6 @@
 }
 .nav__ul > li:hover {
   transition: none;
-  border-bottom: 3px solid orange;
+  color: rgb(58, 58, 75);
+  border-bottom: 3px solid rgb(58, 58, 75);
 }
