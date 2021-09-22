@@ -1,9 +1,12 @@
 .footer {
-  min-height: 250px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: 400px;
   max-height: fit-content;
   width: 100%;
   background-color: rgb(58, 58, 75);
-  margin-top: 10px;
 }
 
 .footer__div-1 {
@@ -21,7 +24,7 @@
   align-items: center;
   justify-content: center;
   height: fit-content;
-  width: 25%;
+  width: 33%;
   background-color: rgb(58, 58, 75);
 }
 .footer__logo > img {
@@ -38,14 +41,17 @@
 .footer__info {
   margin: 10px;
   border-left: 1px solid rgba(128, 128, 128, 0.219);
-  width: 25%;
+  width: 33%;
   background-color: rgb(58, 58, 75);
 }
 .footer__info > p {
   border-bottom: 1px solid rgba(128, 128, 128, 0.219);
-  font-size: small;
+  font-size: large;
   color: grey;
   margin: 10px 10px;
+}
+.footer__info > h1 {
+  color: white;
 }
 
 .footer__div-2 {

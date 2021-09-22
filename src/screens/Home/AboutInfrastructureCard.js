@@ -16,13 +16,13 @@ const useStyles = makeStyles({
   },
   title: {
     fontSize: 26,
-    padding: "2px",
+    padding: "3px",
   },
   pos: {
     marginBottom: 12,
   },
   root: {
-    minHeight: "500px",
+    minHeight: "625px",
     maxWidth: "100%",
     margin: "10px",
   },
@@ -54,11 +54,8 @@ export default function OutlinedCard() {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button variant="outlined" size="large" color="primary">
-          Share
-        </Button>
         <Button variant="contained" size="large" color="primary">
-          Learn More
+          Read More
         </Button>
       </CardActions>
     </Card>

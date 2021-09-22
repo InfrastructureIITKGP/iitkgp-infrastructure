@@ -15,7 +15,7 @@ const useStyles = makeStyles({
     margin: "10px",
   },
   media: {
-    height: 250,
+    height: 400,
   },
 })
 
@@ -45,11 +45,8 @@ export default function LatestNewsCard(props) {
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button variant="outlined" size="large" color="primary">
-          Share
-        </Button>
         <Button variant="contained" size="large" color="primary">
-          Learn More
+          Read More
         </Button>
       </CardActions>
     </Card>

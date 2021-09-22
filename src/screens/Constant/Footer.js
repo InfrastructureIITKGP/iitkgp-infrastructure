@@ -32,17 +32,14 @@ function Footer() {
           </div>
         </div>
         <div className="footer__info">
+          <h1>{Data.footer.heading1}</h1>
           {Data.footer.infoDiv1.map(paragraph => {
             return <p>{paragraph}</p>
           })}
         </div>
         <div className="footer__info">
+          <h1>{Data.footer.heading2}</h1>
           {Data.footer.infoDiv2.map(paragraph => {
-            return <p>{paragraph}</p>
-          })}
-        </div>
-        <div className="footer__info">
-          {Data.footer.infoDiv3.map(paragraph => {
             return <p>{paragraph}</p>
           })}
         </div>

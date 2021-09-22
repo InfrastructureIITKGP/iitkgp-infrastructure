@@ -3,11 +3,12 @@
   flex-direction: row;
   justify-content: space-between;
   height: 100px;
-  background-color: white;
-  width: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
 }
 .header__iit-logo {
-  margin-left: 20px;
+  /* margin-left: 50px; */
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -15,18 +16,23 @@
 }
 
 .iit__logo-name {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 .iit__logo-name > p {
-  text-align-last: right;
-  color: #583798;
-  font-weight: 800;
+  font-size: large;
+  text-align: left;
+  color: #412679;
+  font-weight: 900;
+}
+
+.infrastructure__works > strong {
+  margin-right: 260px;
 }
 .header__iit-logo > img {
   height: 60px;
 }
 .header__weather {
-  margin-right: 50px;
+  /* margin-right: 50px; */
   display: flex;
   flex-direction: row;
   align-items: center;

@@ -8,7 +8,7 @@ import Footer from "../screens/Constant/Footer"
 const IndexPage = () => {
   return (
     <div className="home">
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Home />
       <Footer />
