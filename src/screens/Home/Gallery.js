@@ -20,7 +20,7 @@ function gallery() {
             </div>
             <iframe
               width="400"
-              height="370"
+              height="500px"
               src="https://www.youtube.com/embed/iZf1QdDA270"
               title="02"
             ></iframe>
@@ -31,7 +31,7 @@ function gallery() {
             <div className="gallery__img-icon">
               <ImageIcon className="img" />
               <strong>See Our gallery </strong>
-              <button className="gallery__button">View All</button>
+              {/* <button className="gallery__button">View All</button> */}
             </div>
             <Grid spacing={3} container justify="center">
               {gallaryImages.map(image => {

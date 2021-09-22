@@ -2,14 +2,15 @@ import React from "react"
 import "./Hero.css"
 import HomeIcon from "@material-ui/icons/Home"
 import SearchIcon from "@material-ui/icons/Search"
+import Header from "../Constant/Header"
 
 function hero() {
   return (
     <div className="hero">
+      <Header />
       <nav className="nav">
         <ul className="nav__ul">
           <HomeIcon className="nav__homeIcon" />
-          <li className="Home">Home</li>
           <li className="E&M_division">E&M division</li>
           <li className="CCM_Division">CCM Division</li>
           <li className="RAC_Section">RAC Section</li>
@@ -20,6 +21,7 @@ function hero() {
           <SearchIcon className="nav__search" />
         </ul>
       </nav>
+      <div className="infrastructure__works">INFRASTRUCTURE WORKS</div>
     </div>
   )
 }
