@@ -1,12 +1,16 @@
 import React from "react"
 import "../Constant/Header.css"
-import iitLogo from "../../images/IIT-KGP-logo1.gif"
+import iitLogo from "../../images/iit-kgp-logo2.png"
 import CloudIcon from "@material-ui/icons/Cloud"
 
 function Header() {
   return (
     <div className="header">
       <div className="header__iit-logo">
+        <div className="iit__logo-name">
+          <p>INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR</p>
+          <p>भारतीय प्रौद्योगिकी संस्थान खड़गपुर</p>
+        </div>
         <img src={iitLogo} />
       </div>
 

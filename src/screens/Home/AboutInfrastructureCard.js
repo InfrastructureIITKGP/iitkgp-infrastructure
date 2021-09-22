@@ -22,6 +22,7 @@ const useStyles = makeStyles({
     marginBottom: 12,
   },
   root: {
+    minHeight: "500px",
     maxWidth: "100%",
     margin: "10px",
   },

@@ -9,7 +9,7 @@ function imgGrid(props) {
   const gallaryPictures = props.section1 ? Data.galleryData1 : Data.galleryData2
 
   return (
-    <Grid justifyContent="center" xs={12}>
+    <Grid justifyContent="center" xs={12} className="grid">
       <CardContent>
         <Grid spacing={1} container justify="center" className="img__grid">
           {gallaryPictures.map(items => {
