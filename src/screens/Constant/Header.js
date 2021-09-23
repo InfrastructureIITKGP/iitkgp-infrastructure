@@ -9,13 +9,9 @@ function Header() {
       <div className="header__iit-logo">
         <img src={iitLogo} />
         <div className="iit__logo-name">
-          <p>INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR</p>
-          <p>भारतीय प्रौद्योगिकी संस्थान खड़गपुर</p>
+          <strong className="change-content"></strong>
         </div>
       </div>
-      {/* <div className="infrastructure__works">
-        <strong>Infrastructure Works</strong>
-      </div> */}
 
       <div className="header__weather">
         <CloudIcon className="weather-icon" />
