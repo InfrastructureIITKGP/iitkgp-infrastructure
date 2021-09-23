@@ -18,11 +18,23 @@
 .iit__logo-name {
   margin-left: 10px;
 }
-.iit__logo-name > p {
-  font-size: large;
+.change-content {
+  font-size: 1.5rem;
   text-align: left;
-  color: #412679;
+  color: white;
   font-weight: 900;
+}
+.change-content:after {
+  content: "";
+  animation: changetext 5s infinite linear;
+}
+@keyframes changetext {
+  0% {
+    content: "INDIAN INSTITUTE OF TECHNOLOGY KHARAGPUR";
+  }
+  100% {
+    content: "भारतीय प्रौद्योगिकी संस्थान, खड़गपुर";
+  }
 }
 
 .infrastructure__works > strong {
@@ -47,6 +59,7 @@
 }
 
 .header__weather-info {
+  color: white;
   display: flex;
   flex-direction: column;
   align-self: center;
