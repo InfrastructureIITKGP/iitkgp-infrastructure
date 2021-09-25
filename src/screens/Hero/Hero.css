@@ -1,6 +1,6 @@
 .hero {
   background-repeat: no-repeat;
-  background: rgba(0, 0, 0, 0.4) url(../../images/iit-kgp-main.jpg);
+  background: rgba(0, 0, 0, 0.35) url(../../images/iit-kgp-main.jpg);
   background-size: cover;
   background-blend-mode: darken;
   background-position: center;

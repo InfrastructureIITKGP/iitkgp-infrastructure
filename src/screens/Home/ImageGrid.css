@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 94vw;
+  width: 100%;
 }
 
 .img__grid-img {
@@ -27,8 +27,8 @@
   top: 90%;
   left: 50%;
   transform: translate(-50%, -50%);
-  height: 30px;
-  width: 60%;
+  height: 35px;
+  width: 70%;
   background-color: black;
   color: white;
   border: none;

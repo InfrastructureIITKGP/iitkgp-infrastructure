@@ -2,7 +2,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 100px;
+  height: 120px;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
@@ -23,6 +23,7 @@
   text-align: left;
   color: white;
   font-weight: 900;
+  text-shadow: 1px 1px rgba(67, 25, 165, 0.5);
 }
 .change-content:after {
   content: "";
@@ -43,8 +44,14 @@
 .header__iit-logo > img {
   height: 60px;
 }
+
+.infrastructure__works {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+}
 .header__weather {
-  /* margin-right: 50px; */
   display: flex;
   flex-direction: row;
   align-items: center;

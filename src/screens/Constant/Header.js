@@ -12,6 +12,9 @@ function Header() {
           <strong className="change-content"></strong>
         </div>
       </div>
+      <div className="infrastructure__works">
+        <h2>INFRASTRUCTURE WORKS</h2>
+      </div>
 
       <div className="header__weather">
         <CloudIcon className="weather-icon" />
