@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./Home.css"
 import AboutInfrastructureCard from "./AboutInfrastructureCard"
 import LatestNewsCard from "./LatestNewsCard"
@@ -19,7 +19,7 @@ function Home() {
         className="card__div1"
       >
         <CardContent>
-          <Grid spacing={1} container justify="center">
+          <Grid spacing={3} container justify="center">
             <Grid item xs={3}>
               <AboutInfrastructureCard />
             </Grid>
@@ -61,7 +61,7 @@ function Home() {
 
       <Grid justifyContent="center" xs={12} className="card__div2">
         <CardContent>
-          <Grid spacing={1} container justify="center">
+          <Grid spacing={3} container justify="center">
             {Data.card__div2.map(items => {
               return (
                 <Grid item xs={3}>
