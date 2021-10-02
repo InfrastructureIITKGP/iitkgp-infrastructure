@@ -1,0 +1,58 @@
+.ongoing_projects1 {
+  min-height: 60vh;
+  max-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.ongoing_projects2 {
+  min-height: 60vh;
+  max-height: fit-content;
+  background-color: rgb(231, 235, 241);
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.img {
+  max-height: 600px;
+  max-width: 700px;
+  margin: 20px;
+}
+.ongoing_projects-info {
+  max-width: 600px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+.ongoing_projects-info h1 {
+  margin-bottom: 20px;
+  color: rebeccapurple;
+}
+.ongoing_projects-info p {
+  color: red;
+}
+.ongoing_projects-info strong {
+  color: rebeccapurple;
+}
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  min-height: 20vh;
+}
+.info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 44px;
+}

@@ -7,20 +7,19 @@
   margin-left: auto;
   margin-right: auto;
   height: fit-content;
-  margin-top: 50px;
 }
-.menudropdown1:hover {
-  border-bottom: 3px solid white;
-}
+
 .icon {
   color: white;
-  font-size: 50px;
+  cursor: pointer;
+  font-size: 40px;
 }
 .icon:hover {
   color: #3f51b5;
 }
 
 .menudropdown1 ul li ul {
+  font-size: 20px;
   padding: 0px;
 }
 
@@ -33,21 +32,21 @@
   height: 50px;
   line-height: 50px;
   text-align: center;
+  cursor: pointer;
 }
 .menudropdown1 ul li:hover {
-  color: #3f51b5;
+  color: white;
+  background-color: #3f51b5;
 }
 
 .menudropdown1 ul li ul {
-  background-color: white;
+  background-color: #737ebb;
+  color: white;
   display: none;
+  position: relative;
 }
 .menudropdown1 ul li:hover > ul {
-  background-color: white;
   display: block;
-}
-.menudropdown1 ul li ul {
-  position: relative;
 }
 .menudropdown1 ul li ul:hover {
   background-color: #3f51b5;
