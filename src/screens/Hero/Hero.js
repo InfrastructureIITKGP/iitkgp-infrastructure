@@ -1,7 +1,5 @@
 import React from "react"
 import "./Hero.css"
-import HomeIcon from "@material-ui/icons/Home"
-import SearchIcon from "@material-ui/icons/Search"
 import Header from "../Constant/Header"
 import Navigation from "./Navigation"
 

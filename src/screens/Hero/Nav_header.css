@@ -1,0 +1,8 @@
+.nav {
+  height: fit-content;
+  background: rgba(0, 0, 0, 0.35) url(../../images/iit-kgp-main.jpg);
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: top;
+  width: 100%;
+}

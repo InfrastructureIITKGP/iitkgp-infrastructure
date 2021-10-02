@@ -9,22 +9,27 @@ function navigation() {
       <HomeIcon className="icon" />
       <ul>
         <li>
-          E&M division
-          <ul>Links</ul>
+          CCM Division
+          <ul></ul>
         </li>
         <li>
-          CCM Division
-          <ul>Links</ul>
-          <ul>Links</ul>
+          E&M Division
+          <ul>On Going projects</ul>
+          <ul>
+            Links
+            <li>Sub Links</li>
+          </ul>
         </li>
         <li>
           RAC Section
           <ul>Links</ul>
           <ul>Links</ul>
-          <ul>Links</ul>
           <ul>
             Links
             <li>Sub Links</li>
+          </ul>
+          <ul>
+            Links
             <li>Sub Links</li>
           </ul>
         </li>
