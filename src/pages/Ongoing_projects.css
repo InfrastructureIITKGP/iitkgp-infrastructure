@@ -1,5 +1,5 @@
 .ongoing_projects1 {
-  min-height: 50vh;
+  min-height: 60vh;
   max-height: fit-content;
   display: flex;
   flex-wrap: wrap;
@@ -8,7 +8,7 @@
   padding: 20px;
 }
 .ongoing_projects2 {
-  min-height: 50vh;
+  min-height: 60vh;
   max-height: fit-content;
   background-color: rgb(231, 235, 241);
   display: flex;
@@ -16,15 +16,14 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
-  padding: 20px;
 }
 .img {
   max-height: 600px;
-  max-width: 750px;
+  max-width: 700px;
   margin: 20px;
 }
 .ongoing_projects-info {
-  max-width: 670px;
+  max-width: 600px;
   height: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -32,35 +31,16 @@
   justify-content: center;
   margin: 20px;
 }
-
-.ongoing_projects-info .credits {
-  width: 300px;
-  margin-right: 20px;
-  color: rebeccapurple;
-  display: flex;
-  justify-content: flex-start;
-  text-align: start;
-}
-
 .ongoing_projects-info h1 {
-  width: 100%;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
   color: rebeccapurple;
 }
-
 .ongoing_projects-info p {
-  width: 100%;
-  margin-bottom: 20px;
-  font-size: large;
   color: red;
 }
-
 .ongoing_projects-info strong {
-  font-size: large;
-  margin-left: 10px;
   color: rebeccapurple;
 }
-
 .info {
   display: flex;
   flex-wrap: wrap;
@@ -68,7 +48,6 @@
   width: 100%;
   min-height: 20vh;
 }
-
 .info div {
   display: flex;
   flex-direction: row;
