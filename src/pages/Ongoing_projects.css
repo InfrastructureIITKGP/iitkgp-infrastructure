@@ -19,8 +19,8 @@
   padding: 20px;
 }
 .img {
-  max-height: 600px;
-  max-width: 750px;
+  height: 800px;
+  width: 1100px;
   margin: 20px;
 }
 .ongoing_projects-info {
@@ -43,20 +43,21 @@
 }
 
 .ongoing_projects-info h1 {
+  font-size: 40px;
   width: 100%;
   margin-bottom: 30px;
   color: rebeccapurple;
 }
 
 .ongoing_projects-info p {
+  font-size: 25px;
   width: 100%;
   margin-bottom: 20px;
-  font-size: large;
   color: red;
 }
 
 .ongoing_projects-info strong {
-  font-size: large;
+  font-size: 25px;
   margin-left: 10px;
   color: rebeccapurple;
 }

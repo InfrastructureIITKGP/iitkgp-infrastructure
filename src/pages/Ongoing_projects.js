@@ -5,6 +5,7 @@ import { DateRangeOutlined } from "@material-ui/icons"
 import { PermIdentity } from "@material-ui/icons"
 import { MonetizationOn } from "@material-ui/icons"
 import Data from "../Data/Ongoing_projects.data"
+import Footer from "../screens/Constant/Footer"
 
 function ongoingProjects() {
   return (
@@ -58,6 +59,7 @@ function ongoingProjects() {
           </>
         )
       })}
+      <Footer />
     </div>
   )
 }
