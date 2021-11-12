@@ -1,15 +1,16 @@
 import * as React from "react"
 import "./index.css"
-import Hero from "../screens/Hero/Hero"
 import Home from "../screens/Home/Home"
-import Footer from "../screens/Constant/Footer"
+import HomeLayout from "../screens/Hero/home-layout"
 
 const IndexPage = () => {
   return (
-    <div className="home">
-      <Hero />
-      <Home />
-      <Footer />
+    <div>
+      <div className="home">
+        <HomeLayout>
+          <Home />
+        </HomeLayout>
+      </div>
     </div>
   )
 }

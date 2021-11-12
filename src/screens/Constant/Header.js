@@ -13,7 +13,7 @@ function Header() {
         </div>
       </div>
       <div className="infrastructure__works">
-        <h2>INFRASTRUCTURE WORKS</h2>
+        <h2>INSTITUTE WORKS</h2>
       </div>
 
       <div className="header__weather">
