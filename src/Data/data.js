@@ -9,14 +9,14 @@ import deanImg from "../images/dean-img.jpg"
 
 const data = {
   galleryData1: [
-    { key: "01", text: "Administration", image: img1 },
+    { key: "01", text: "Teaching & Administration", image: img1 },
     { key: "02", text: "recreational facilities", image: img2 },
     { key: "03", text: "Green initiatives", image: img3 },
   ],
 
   galleryData2: [
     { key: "04", text: "Projects", image: img4 },
-    { key: "05", text: "Policies and Procedures", image: img5 },
+    { key: "05", text: "Policies & Procedures", image: img5 },
     { key: "06", text: "Academics", image: img6 },
   ],
 

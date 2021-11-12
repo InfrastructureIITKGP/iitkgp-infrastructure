@@ -4,7 +4,7 @@ import HomeIcon from "@material-ui/icons/Home"
 import SearchIcon from "@material-ui/icons/Search"
 import { Link } from "gatsby"
 
-function navigation() {
+const Navigation = () => {
   return (
     <div className="menudropdown1">
       <Link to="/">
@@ -14,11 +14,14 @@ function navigation() {
       <ul>
         <li>
           CCM Division
+          <ul>Overview</ul>
           <ul>
-            <Link to="/Ongoing_projects">Ongoing projects</Link>
+            <Link to="/ongoing-projects">OnGoing Projects</Link>
+          </ul>
+          <ul>
+            <Link to="/completed-project">Completed Projects</Link>
           </ul>
           <ul>Organization Chart</ul>
-          <ul>Overview</ul>
           <ul>Past Achievements</ul>
           <ul>Forms</ul>
         </li>
@@ -47,8 +50,10 @@ function navigation() {
           <ul>Links</ul>
         </li>
         <li>
-          About Us
-          <ul>Links</ul>
+          About
+          <ul>
+            <Link to="/about">About Us</Link>
+          </ul>
         </li>
       </ul>
       <SearchIcon className="icon" />
@@ -56,4 +61,4 @@ function navigation() {
   )
 }
 
-export default navigation
+export default Navigation

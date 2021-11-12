@@ -1,0 +1,80 @@
+.ongoing_projects1 {
+  min-height: 50vh;
+  max-height: fit-content;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.ongoing_projects2 {
+  min-height: 50vh;
+  max-height: fit-content;
+  background-color: rgb(231, 235, 241);
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.img {
+  height: 750px;
+  width: 1000px;
+  margin: 20px;
+}
+.ongoing_projects-info {
+  max-width: 670px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.ongoing_projects-info .credits {
+  width: 300px;
+  margin-right: 20px;
+  color: rebeccapurple;
+  display: flex;
+  justify-content: flex-start;
+  text-align: start;
+}
+
+.ongoing_projects-info h1 {
+  font-size: 40px;
+  width: 100%;
+  margin-bottom: 30px;
+  color: rebeccapurple;
+}
+
+.ongoing_projects-info p {
+  font-size: 25px;
+  width: 100%;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.ongoing_projects-info strong {
+  font-size: 25px;
+  margin-left: 10px;
+  color: rebeccapurple;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  min-height: 20vh;
+}
+
+.info div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 44px;
+}

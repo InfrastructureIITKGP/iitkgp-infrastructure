@@ -1,50 +1,87 @@
 import React, { useEffect } from "react"
-import "./Home.css"
 import AboutInfrastructureCard from "./AboutInfrastructureCard"
 import LatestNewsCard from "./LatestNewsCard"
 import ImageGrid from "./ImageGrid"
 import Gallery from "./Gallery"
 import Data from "../../Data/data"
 import CardContent from "@material-ui/core/CardContent"
-import { Grid } from "@material-ui/core"
+import { Grid, makeStyles } from "@material-ui/core"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
+const useStyles = makeStyles({
+  root: {
+    padding: "10px",
+  },
+  card_content: {
+    display: "flex",
+    flex: "wrap",
+  },
+
+  card__div1: {
+    display: "flex",
+    alignItems: "center",
+    height: "100vh",
+  },
+  card__div2: {
+    display: "flex",
+    alignItems: "center",
+    height: "85vh",
+    backgroundColor: "rgb(231, 235, 241)",
+    marginBottom: "100px",
+  },
+  latest__news: {
+    backgroundColor: "rgb(231, 235, 241)",
+    height: "15vh",
+    color: "#35196d",
+    fontSize: "xx-large",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  // .latest__news > svg {
+  //   margin-left: 10px;
+  // }
+})
 function Home() {
+  const classes = useStyles()
   return (
-    <div className="body">
-      <Grid
-        justifyContent="center"
-        alignItems="center"
-        xs={12}
-        className="card__div1"
-      >
-        <CardContent>
-          <Grid spacing={3} container justify="center">
-            <Grid item xs={3}>
-              <AboutInfrastructureCard />
+    <div className={classes.root}>
+      <div>
+        <Grid
+          justifyContent="center"
+          alignItems="center"
+          xs={12}
+          className={classes.card__div1}
+        >
+          <CardContent>
+            <Grid spacing={3} container justify="center">
+              <Grid item xs={3}>
+                <AboutInfrastructureCard />
+              </Grid>
+              <Grid justifyContent="center" item xs={3}>
+                <iframe
+                  item
+                  xs={4}
+                  width="100%"
+                  height="625px"
+                  src="https://www.youtube.com/embed/iZf1QdDA270"
+                  title="1"
+                ></iframe>
+              </Grid>
+              <Grid item xs={3}>
+                <LatestNewsCard
+                  image={Data.card__div1[0].image}
+                  title={Data.card__div1[0].title}
+                  heading={Data.card__div1[0].heading}
+                  paragraph={Data.card__div1[0].paragraph}
+                />
+              </Grid>
             </Grid>
-            <Grid justifyContent="center" item xs={3}>
-              <iframe
-                item
-                xs={4}
-                width="100%"
-                height="625px"
-                src="https://www.youtube.com/embed/iZf1QdDA270"
-                title="1"
-              ></iframe>
-            </Grid>
-            <Grid item xs={3}>
-              <LatestNewsCard
-                image={Data.card__div1[0].image}
-                title={Data.card__div1[0].title}
-                heading={Data.card__div1[0].heading}
-                paragraph={Data.card__div1[0].paragraph}
-              />
-            </Grid>
-          </Grid>
-        </CardContent>
-      </Grid>
-      <div className="latest__news">
+          </CardContent>
+        </Grid>
+      </div>
+
+      <div className={classes.latest__news}>
         <strong>LATEST NEWS</strong>
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -59,28 +96,33 @@ function Home() {
         </svg>
       </div>
 
-      <Grid justifyContent="center" xs={12} className="card__div2">
-        <CardContent>
-          <Grid spacing={3} container justify="center">
-            {Data.card__div2.map(items => {
-              return (
-                <Grid item xs={3}>
-                  <LatestNewsCard
-                    image={items.image}
-                    title={items.title}
-                    heading={items.heading}
-                    paragraph={items.paragraph}
-                  />
-                </Grid>
-              )
-            })}
-          </Grid>
-        </CardContent>
-      </Grid>
-
-      <ImageGrid section1={true} section2={false} />
-      <ImageGrid section1={false} section2={true} />
-      <Gallery />
+      <div>
+        <Grid justifyContent="center" xs={12} className={classes.card__div2}>
+          <CardContent>
+            <Grid spacing={3} container justify="center">
+              {Data.card__div2.map(items => {
+                return (
+                  <Grid item xs={3}>
+                    <LatestNewsCard
+                      image={items.image}
+                      title={items.title}
+                      heading={items.heading}
+                      paragraph={items.paragraph}
+                    />
+                  </Grid>
+                )
+              })}
+            </Grid>
+          </CardContent>
+        </Grid>
+      </div>
+      <div>
+        <Gallery />
+      </div>
+      <div>
+        <ImageGrid section1={true} section2={false} />
+        <ImageGrid section1={false} section2={true} />
+      </div>
     </div>
   )
 }
