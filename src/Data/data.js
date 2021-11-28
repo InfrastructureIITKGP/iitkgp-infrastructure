@@ -56,9 +56,11 @@ const data = {
   footer: {
     heading1: "Quick Links",
     heading2: "FAQs",
+    heading3: "Other Links",
+
     infoDiv1: [
-      "Quarter Allocation",
-      "Building Information",
+      "Campus Master Plan",
+      "Building & Works Committee",
       "Maintenance Tracking",
       "Waste Managment Data",
       "Online Electrical Data",
@@ -71,6 +73,7 @@ const data = {
       "Request for major project",
       "More",
     ],
+    infoDiv3: ["Quarter Allocation", "Building Information"],
   },
   gallaryImages: [
     {

@@ -13,44 +13,41 @@ const Navigation = () => {
 
       <ul>
         <li>
-          CCM Division
+          <strong>CCM Division</strong>
           <ul>Overview</ul>
+          <ul>Water Works</ul>
+          <ul>Sanitary Section</ul>
+          <ul>Horticulture Section</ul>
+          <ul>Organization Chart</ul>
           <ul>
             <Link to="/ongoing-projects">OnGoing Projects</Link>
           </ul>
           <ul>
             <Link to="/completed-project">Completed Projects</Link>
           </ul>
-          <ul>Organization Chart</ul>
-          <ul>Past Achievements</ul>
-          <ul>Forms</ul>
         </li>
         <li>
-          E&M Division
-          <ul>On Going projects</ul>
-          <ul>Links</ul>
+          <strong>Electrical Division</strong>
+          <ul>E&M Section</ul>
+          <ul>RAC Section</ul>
         </li>
         <li>
-          RAC Section
+          <strong>Telephone</strong>
           <ul>Links</ul>
           <ul>Links</ul>
           <ul>Links</ul>
           <ul>Links</ul>
         </li>
         <li>
-          Tenders
+          <strong>Estate Office</strong>
           <ul>Links</ul>
         </li>
         <li>
-          Contracts
-          <ul>Links</ul>
+          <strong>Contracts</strong>
+          <ul>Tenders</ul>
         </li>
         <li>
-          Notices
-          <ul>Links</ul>
-        </li>
-        <li>
-          About
+          <strong>About</strong>
           <ul>
             <Link to="/about">About Us</Link>
           </ul>
